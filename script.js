@@ -5,7 +5,7 @@ function updateCountdown() {
     const currentETDate = new Date(currentET);
 
     // Set target date and time: 7 PM EST on November 3rd
-    const targetDate = new Date('November 3, 2024 19:00:00 GMT-0500'); // GMT-0500 for EST
+    const targetDate = new Date('November 5, 2024 19:00:00 GMT-0500'); // GMT-0500 for EST
 
     const diff = targetDate - currentETDate; // Difference in milliseconds
 
